@@ -1,0 +1,112 @@
+body {
+    margin:0;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+}
+
+.brand-title {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family:Verdana;
+    position: relative;
+    top:-15px;
+    left:15px;
+}
+
+.brand-container {
+   left: 15px;
+   display: inline-block;
+   margin: 0;
+   position: relative;
+   top: 5px ;
+}
+
+.links-container {
+    float:right;
+    position: relative;
+    top:15px;
+}
+
+.link {
+    color:white;
+    text-decoration:none;
+    font-family:Verdana;
+    margin:0 15px;
+    transition: 0.2s ;
+}
+
+.link:hover {
+    color: green;
+
+}
+
+.btn-link {
+  background-color:skyblue;
+  padding: 10px 25px;
+  font-family: Verdana;
+  text-decoration: none;
+  border-radius: 15px;
+  color: white;
+  transition: 0.2s;
+
+}
+
+.btn-link:hover {
+    color: green;
+    padding: 10px 30px;
+}
+
+/*.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+        */
